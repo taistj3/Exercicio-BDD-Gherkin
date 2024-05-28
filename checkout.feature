@@ -17,19 +17,10 @@
         Então deve apresentar mensagem de erro "E-mail inválido"
 
         Esquema do Cenário: Campos obrigatórios
-        Quando deixar de preencher algum <Campo obrigatorio>
-        Então de aparecer a <Mensagem> de alerta
+        Quando deixar de preencher algum Campo obrigatório
+        Então deve exibir a mensagem de alerta: "Preencher todos os campos obrigatórios"
 
-        Examples:
-            | Campo obrigatorio  | Mensagem                                |
-            | Nome               |"Preencher todos os campos obrigatórios" |
-            | Sobrenome          |"Preencher todos os campos obrigatórios" |
-            | País               |"Preencher todos os campos obrigatórios" |
-            | Endereço           |"Preencher todos os campos obrigatórios" |
-            | Cidade             |"Preencher todos os campos obrigatórios" |
-            | CEP                |"Preencher todos os campos obrigatórios" |
-            | Telefone           |"Preencher todos os campos obrigatórios" |
-            | Endereço de E-mail |"Preencher todos os campos obrigatórios" |
+       
 
 
 
