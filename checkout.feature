@@ -13,7 +13,7 @@
         Então sistema deve permitir finalizar a compra
 
         Cenário: concluir cadastro
-        Quando preencher o campo "Endereço de e-mail" com e-mail iválido
+        Quando preencher o campo "Endereço de e-mail" com e-mail inválido
         Então deve apresentar mensagem de erro "E-mail inválido"
 
         Esquema do Cenário: Campos obrigatórios
